@@ -1,0 +1,27 @@
+# Python Dont Miss Live
+
+## Introduction
+
+Python Link Opener is a convenient command-line tool designed for users who are often away from their computers and need to access live game streams that offer in-game rewards (drops).
+
+## How it Works
+
+The Python Link Opener allows you to specify a link and a scheduled time. When the scheduled time matches the local time of your computer, the link will automatically open in your default web browser. This enables you to log into game streams and claim any drops or rewards without needing to be present at your computer.
+
+## Usage
+
+1. Run the Python program and provide the link you want to open.
+2. Enter the scheduled time for the link to be opened.
+3. Optionally, specify your preferred web browser to open the link (leave blank for default).
+4. The program will continuously check the current time and, when the scheduled time is reached, it will open the link in the selected web browser.
+
+## Getting Started
+
+To get started with the Python Link Opener, follow these steps:
+
+1. Download the repository.
+2. Open the terminal in the project directory.
+
+```bash
+$ git clone https://github.com/your-username/python-link-opener
+$ cd python-link-opener

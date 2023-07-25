@@ -1,6 +1,7 @@
 import webbrowser
 import time
 
+
 class LinkOpener:
     def __init__(self):
         self.link = None
@@ -15,6 +16,7 @@ class LinkOpener:
 
     def get_time_input(self):
         return self.time_input
+
 
 class TimeChecker:
     def __init__(self, link_opener):
@@ -35,12 +37,14 @@ class TimeChecker:
 
             time.sleep(180)  # Wait for 3 minutes (3 * 60 seconds) before checking the time again
 
+
 def main():
     link_opener = LinkOpener()
     link_opener.get_user_input()
 
     time_checker = TimeChecker(link_opener)
     time_checker.open_link_at_scheduled_time()
+
 
 if __name__ == "__main__":
     main()
